@@ -6,3 +6,5 @@ Note:
 
 - All integers in the array are unique
 - There exists at most one pair that sums up to the target
+
+[LeetCode Link](https://leetcode.com/problems/two-sum/)
