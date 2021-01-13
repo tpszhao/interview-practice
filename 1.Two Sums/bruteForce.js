@@ -1,0 +1,10 @@
+const sampleArray = [1, 2, 3, 4, 5];
+const sampleTarget = 9;
+
+const computeTwoSums = (list, target) => {
+  const length = list.length;
+  if (length < 2) return null;
+  for (let start = 0; start < length; start++) {
+    console.log(start);
+  }
+};
