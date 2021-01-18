@@ -1,10 +1,14 @@
-Given a array of integers and a target integer, find a pair within the array that adds up to the target and return the indices of each number in the pair.
+Given a array of integers. Each pair of integers forms a rectangle where width is the difference in the indices and the height is the minimum of the pair.
 
-If no such pair exists, return `null`
+Find the largest area that can be formed by such rectangle.
 
-Note:
+Example:
 
-- All integers in the array are unique
-- There exists at most one pair that sums up to the target
+```
+Input: [4,3,2,1,4]
+Output: 16
+```
 
-[LeetCode Link](https://leetcode.com/problems/two-sum/)
+Note: we can assume that the array has length at least 2.
+
+[LeetCode Link](https://leetcode.com/problems/container-with-most-water/)
