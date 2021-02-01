@@ -1,5 +1,5 @@
-// import { flatten } from "./solution";
-import { flatten } from "./solution2";
+import { flatten } from "./solution";
+// import { flatten } from "./solution2";
 import {
   generateThreeLevelList,
   convertListToArray,

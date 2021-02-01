@@ -20,14 +20,10 @@ export const findEnd = (head) => {
 export const flatten = (head) => {
   if (head === null) return null;
   let currentNode = head;
-  let currentChild = currentNode.child;
-  let currentNext = currentNode.next;
-  const setNextLoop = (newCurrentNode) => {
-    currentChild = newCurrentNode.child;
-    currentNext = newCurrentNode.next;
-  };
 
-  while (currentChild || currentNext) {
+  while (currentNode !== null) {
+    let currentChild = currentNode.child;
+    let currentNext = currentNode.next;
     if (!currentChild) {
       currentNode = currentNext;
     } else {
@@ -41,7 +37,6 @@ export const flatten = (head) => {
       }
       currentNode = currentChild;
     }
-    setNextLoop(currentNode);
   }
   return head;
 };
