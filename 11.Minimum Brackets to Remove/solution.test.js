@@ -1,4 +1,5 @@
-import { minRemoveToMakeValid } from "./solution";
+// import { minRemoveToMakeValid } from "./solution";
+import { minRemoveToMakeValid } from "./cleanerSolution";
 
 test("11. first test no removal", () => {
   const str = "()()()()()";
