@@ -7,7 +7,4 @@ Input: head = [1,2,3,4,5,6,null,null,null,7,8,9,10,null,null,11,12]
 Output: [1,2,3,7,8,11,12,9,10,4,5,6]
 ```
 
-Note:
-There are three solutions, basically the same idea but written multiple times to improve readability.
-
 [LeetCode Link](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)
