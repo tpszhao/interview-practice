@@ -10,7 +10,7 @@ const swap = (list, i, j) => {
 const findPivotIndex = (list, left, right) => {
   const pivotElement = list[right];
   let i = left;
-  let j = left + 1;
+  let j = left;
   while (j <= right) {
     if (list[j] >= pivotElement) {
       swap(list, i, j);
