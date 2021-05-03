@@ -1,4 +1,5 @@
-import quicksortSelect from "./quicksort";
+// import quicksortSelect from "./quicksort";
+import quicksortSelect from "./quicksortReduceSpace";
 
 test("13. quicksortSelect test 1", () => {
   const num = [3, 2, 3, 1, 2, 4, 5, 5, 6];
