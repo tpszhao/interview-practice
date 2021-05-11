@@ -1,4 +1,5 @@
-import searchRange from "./solution";
+// import searchRange from "./solution";
+import searchRange from "./fasterSolution";
 
 test("14. searchRange test 1", () => {
   const num = [1, 2, 3, 4];
